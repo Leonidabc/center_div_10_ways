@@ -1,0 +1,41 @@
+.parent{
+  width: 300px;
+  height: 300px;
+  background: #222;
+  margin-bottom: 10px;
+}
+.child{
+  background: orange;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  font-size: 35px;
+}
+.p1{
+  position: relative;
+}
+.c1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.p2{
+  position: relative;
+}
+.c2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.p3{
+  position: relative;
+}
+.c3{
+  position: absolute;
+  inset: 0;  /*ЭТО одно свойство заменяет четыре предыдущих свойства*/
+  margin: auto;
+}
